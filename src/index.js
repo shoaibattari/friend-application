@@ -4,11 +4,14 @@ import { BrowserRouter } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LoginUi from './components/login.ui/LoginUi';
 
 ReactDOM.render(
-  <BrowserRouter>
-  <App />
-</BrowserRouter>,
+  <LoginUi />,
+//   <BrowserRouter>
+//   <App />
+//   <LoginUi />
+// </BrowserRouter>
   document.getElementById('root')
 );
 
