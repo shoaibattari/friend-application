@@ -1,12 +1,12 @@
 import React from 'react'
 // import { Link } from 'react-router-dom';
-import './LoginUi.css';
+import '../signup.ui/Signup.css'
 import profile from "./../image/a.png";
 import email from "./../image/email.jpg";
 import pass from "./../image/pass.png";
 
 
-function LoginUi() {
+function Signup() {
   return (
     <div>
       {/* <Link to="/signup">signup</Link> */}
@@ -22,7 +22,7 @@ function LoginUi() {
 
             </div>
             <div>
-              <h1>Login Page</h1>
+              <h1>Sign up Page</h1>
               <div>
                 <img src={email} alt="email" className="email" />
                 <input type="text" placeholder="user name" className="name" />
@@ -46,9 +46,9 @@ function LoginUi() {
 
         </div>
       </div>
-    </div>
-  );
+  </div>      
+);
 
 }
 
-export default LoginUi;
+      export default Signup;

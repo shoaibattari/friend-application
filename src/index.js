@@ -5,9 +5,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginUi from './components/login.ui/LoginUi';
+import Signup from './components/signup.ui/Signup';
 
 ReactDOM.render(
-  <LoginUi />,
+  <Signup />,
 //   <BrowserRouter>
 //   <App />
 //   <LoginUi />
