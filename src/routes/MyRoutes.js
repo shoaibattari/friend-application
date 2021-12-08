@@ -1,14 +1,12 @@
 import {Routes as MyRoutes, Route } from "react-router-dom";
-import Loginpage from "../components/Loginpage";
-import Signuppage from "../components/Signuppage";
-
-
+import LoginUi from "../components/login.ui/LoginUi";
+import Signup from "../components/signup.ui/Signup";
 
 const Routes= ()  =>  {
     return (
         <MyRoutes>
-          <Route path="/" element={<Loginpage />} />
-          <Route path="/Signup" element={<Signuppage />} />
+          <Route path="/" element={<LoginUi />} />
+          <Route path="/Signup" element={<Signup />} />
         </MyRoutes>
     );
   }

@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LoginUi from './components/login.ui/LoginUi';
+// import LoginUi from './components/login.ui/LoginUi';
 import Signup from './components/signup.ui/Signup';
 
 ReactDOM.render(
-  <Signup />,
+  
 //   <BrowserRouter>
-//   <App />
-//   <LoginUi />
+<Signup   />,
+  
 // </BrowserRouter>
   document.getElementById('root')
 );
