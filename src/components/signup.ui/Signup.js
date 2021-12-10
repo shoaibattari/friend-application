@@ -8,7 +8,7 @@ import pass from "./../image/pass.png";
 function Signup() {
   return (
     <div>
-      
+
 
       <div className="main">
         <div className="sub-main">
@@ -34,21 +34,15 @@ function Signup() {
               <div className="login-button">
                 <button>Login</button>
               </div>
-
-              <p className="link">
-                <a href="#">Forgot password ?</a> Or<a href="#">Sign Up</a>
-              </p>
-
-
             </div>
           </div>
 
 
         </div>
       </div>
-  </div>      
-);
+    </div>
+  );
 
 }
 
-      export default Signup;
+export default Signup;
