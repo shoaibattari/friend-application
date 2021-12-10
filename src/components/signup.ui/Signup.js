@@ -32,7 +32,7 @@ function Signup() {
                 <input type="password" placeholder="password" className="name" />
               </div>
               <div className="login-button">
-                <button>Login</button>
+                <button>Signup</button>
               </div>
             </div>
           </div>

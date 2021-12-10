@@ -1,13 +1,14 @@
 import './App.css';
-import LoginUi from './components/login.ui/LoginUi';
-import Signup from './components/signup.ui/Signup';
+// import LoginUi from './components/login.ui/LoginUi';
+// import Signup from './components/signup.ui/Signup';
 
-// import MyRoutes from './routes/MyRoutes';
+import MyRoutes from './routes/MyRoutes';
 
 function App() {
   return (
     <div className="App">
-        <LoginUi />
+      
+      <MyRoutes/>
       </div>
   );
 }

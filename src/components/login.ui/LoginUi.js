@@ -1,16 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { Route } from 'react-router';
 import './LoginUi.css';
 import profile from "./../image/a.png";
 import email from "./../image/email.jpg";
 import pass from "./../image/pass.png";
 
-
-
 function LoginUi() {
   return (
     <div>
-      
+
       <div className="main">
         <div className="sub-main">
           <div>
@@ -26,7 +25,7 @@ function LoginUi() {
               <h1>Login Page</h1>
               <div>
                 <img src={email} alt="email" className="email" />
-                <input type="text" placeholder="user name" className="name" />
+                <input type="email" placeholder="user name" className="name" />
               </div>
               <div className="second-input">
                 <img src={pass} alt="pass" className="email" />
@@ -34,18 +33,17 @@ function LoginUi() {
               </div>
               <div className="login-button">
                 <button>Login</button>
-                <button>Logout</button>
+                {<br />}
+                {<br />}
               </div>
-
-              <p className="link">
-                <a href="#">Sign Up</a>
-              </p>
-
-
+              <div>
+                <button>
+                  <Link to="/Signup">Signup</Link>
+                </button>
+                {/* <button>SignUp</button> */}
+              </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>

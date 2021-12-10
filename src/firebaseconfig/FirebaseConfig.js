@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import { getAuth, } from "firebase/auth";
+
 const firebaseConfig = {
     apiKey: "AIzaSyDh6_zoJwZxYz5TIU9HguGVVCDslAMUMng",
     authDomain: "friends-application-adc4a.firebaseapp.com",
@@ -13,4 +14,5 @@ const firebaseConfig = {
   const app = initializeApp(firebaseConfig);
   
   export const auth = getAuth(app);
-     
+  
+        
